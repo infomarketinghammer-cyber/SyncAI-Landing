@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: #123049;
+  background: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hero-grid {
+  isolation: isolate;
+  background-image: radial-gradient(rgb(2 59 119 / 10%) 0.8px, transparent 0.8px);
+  background-position: center 20px;
+  background-size: 24px 24px;
+  mask-image: linear-gradient(to bottom, black 72%, transparent 100%);
+}
