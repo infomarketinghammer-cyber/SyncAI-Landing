@@ -165,9 +165,6 @@ function App() {
               Consultancy
             </span>
           </h1>
-          <p className="mt-7 max-w-2xl text-pretty text-lg leading-8 text-slate-600 sm:text-xl">
-            AI Projects
-          </p>
         </div>
 
         <aside className="relative">
